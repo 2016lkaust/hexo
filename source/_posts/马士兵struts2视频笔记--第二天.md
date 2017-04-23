@@ -4,9 +4,10 @@ tags: java
 date: 2017-3-24 12:00
 ---
 
-#7、通配符的使用
+# 7、通配符的使用
 当类中方法的数量比较多时，方法中返回不同字符串，struts.xml中需要配置不同的<result name=”xxxx”></result>。使用通配符时，可以最大程度的减少配置，新建action和返回时的界面时，按照约定好的规则起名，配置文件不需要变更。
-##7.1 index.jsp
+<!--more-->
+## 7.1 index.jsp
 ```jsp
 <?xml version="1.0" encoding="GB18030" ?>
 <%@ page language="java" contentType="text/html; charset=GB18030"
