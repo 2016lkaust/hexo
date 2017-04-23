@@ -71,3 +71,9 @@ theme: icarus
 deploy:
   type:  git
   repo:  https://github.com/2016lkaust/2016lkaust.github.io.git
+
+# 自动生成sitemap
+sitemap: 
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
