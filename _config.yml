@@ -69,9 +69,10 @@ theme: icarus
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:  git
+- type:  git
   repo:  https://github.com/2016lkaust/2016lkaust.github.io.git
-
+- type: git
+  repo: https://git.coding.net/lukeaust/lukeaust.git
 # 自动生成sitemap
 sitemap: 
   path: sitemap.xml
